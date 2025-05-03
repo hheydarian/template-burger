@@ -34,6 +34,10 @@ body {
     text-decoration: none;
     font-size: 18px;
     letter-spacing: 1.1px;
+    transition: 0.3s;
+}
+.base_link:hover {
+    background-color: #ffb91a;
 }
 
 /* start nav */
@@ -294,3 +298,31 @@ header {
     color: gray;
 }
 /* end concerning */
+
+/* start deliver */
+.deliver {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(../imgs/dliver.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+.deliver_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.deliver_items_title {
+    font-size: 25px;
+}
+.deliver_items h6 {
+    font-size: 80px;
+    margin: 30px 0;
+    color: #fff;
+    line-height: 0.9;
+    font-weight: 100;
+    width: 50%;
+}
+/* end deliver */
